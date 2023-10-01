@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1f1f1f; /* Dark background color */
+}
+
+.drum-kit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.app-title {
+    font-family: 'Rock Salt', cursive; /* Use the Rock Salt font */
+    font-size: 32px; /* Increase the font size for a bold look */
+    color: #ffcc00; /* Custom color for a rock and roll vibe */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Remove the button-container and adjust button styles */
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 5px; /* Add some margin between buttons */
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #005a9c;
+    transform: scale(1.05); /* Slight scale-up on hover for a cool interaction */
+}
+
+button:focus {
+    outline: none; /* Remove focus outline */
+}
+
+/* Add a cool hover effect for the button */
+button:active {
+    background-color: #004a8c;
+}
